@@ -82,19 +82,20 @@ const App = () => {
     <div className="min-h-screen bg-white text-[#1d1d1f] font-sans antialiased selection:bg-[#0071e3] selection:text-white">
       
       {/* Navigation */}
-      <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white/80 backdrop-blur-xl border-b border-black/5' : 'bg-transparent'}`}>
+      <nav className={`fixed top-0 w-full z-50 transition-all duration-500 bg-white/80 backdrop-blur-xl ${scrolled ? 'bg-white/80 backdrop-blur-xl border-b border-black/5' : 'bg-transparent'}`}>
         <div className="max-w-[1100px] mx-auto px-6 h-14 md:h-20 flex justify-between items-center font-medium text-[12px] md:text-[13px] tracking-wide">
           <div className="flex items-center space-x-2 group cursor-pointer">
             
-           <div className="bg-black p-1 rounded-full">
-  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-    <img
-      src="/yadaullah_constructions_logo.png"
-      alt="Yadaullah Constructions logo"
-      className="w-6 h-6 object-contain"
-    />
-  </div>
+   
+  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center 
+                shadow-lg shadow-black/10 hover:shadow-xl transition-shadow">
+  <img
+    src="/yadaullah_constructions_logo.png"
+    alt="Yadaullah Constructions logo"
+    className="w-9 h-9 object-contain"
+  />
 </div>
+
 
 
             <div className="flex flex-col">
@@ -132,7 +133,7 @@ const App = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-[95vh] flex items-center justify-center pt-20 bg-[#f5f5f7] overflow-hidden">
+      <section id="home" className="mt-5 relative min-h-[95vh] flex items-center justify-center pt-20 bg-[#f5f5f7] overflow-hidden">
         <div className="max-w-[980px] mx-auto px-6 w-full text-center relative z-10">
           <span className="inline-block text-[14px] md:text-[17px] font-bold text-[#f56300] mb-6 tracking-tight animate-in fade-in slide-in-from-bottom duration-700 uppercase">
             Grade-A Government Registered Contractor
