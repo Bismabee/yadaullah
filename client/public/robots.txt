@@ -1,0 +1,21 @@
+# Robots.txt for Yadaullah Constructions
+# Allow all bots to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+# Sitemaps
+Sitemap: https://yadaullah.com/sitemap.xml
+
+# Crawl Delay (optional - be nice to servers)
+Crawl-delay: 1
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
